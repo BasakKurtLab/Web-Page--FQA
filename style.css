@@ -6,7 +6,7 @@
   --back: #dbd56e;
   --title: #ccc5b9;
   --text: #252422;
-  --title2: #eb5e28;
+  --title2: #f56410;
   --text2: #ccc5b9;
   --btnbg: #403d39;
   --radius: 10px;
@@ -39,7 +39,7 @@ h1 {
 }
 .title {
   background-color: var(--title);
-  padding: 15px;
+  padding: 18px;
   border-radius: var(--radius);
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -59,6 +59,7 @@ h1 {
   position: absolute;
   top: 25px;
   right: 25px;
+  font-size: 1.2em;
 }
 .btn:hover {
   background-color: #d36032;
