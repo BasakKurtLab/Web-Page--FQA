@@ -72,3 +72,9 @@ h1 {
   max-height: 0;
   transition: max-height 0.5s;
 }
+
+@media (max-width: 500px) {
+  .teil {
+    width: 350px;
+  }
+}
